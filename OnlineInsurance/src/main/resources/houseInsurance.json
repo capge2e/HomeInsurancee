@@ -1,0 +1,59 @@
+[
+    {
+        "homePolicyId": 1,
+        "homePolicyNo": 432,
+        "clientName": "Raam",
+        "dateOfPurchase": "18-11-2018",
+        "dateOfExpire": "17-09-2022",
+        "isClaimed": "Yes",
+        "claimDate": "16-04-2022",
+        "homeInsurance": {
+            "insuranceName": "Natural Distaster Insurance",
+            "premium": 7000,
+            "sumInsured": 2000000,
+            "isCoveredBelongings": "Yes",
+            "maxbelongingsAmount": 90000,
+            "isCoveredHomeStructure": "Yes",
+            "homeStructureAmount": 100000,
+            "hid": 4
+        }
+    },
+    {
+        "homePolicyId": 2,
+        "homePolicyNo": 465,
+        "clientName": "Ananya",
+        "dateOfPurchase": "19-07-2018",
+        "dateOfExpire": "17-09-2022",
+        "isClaimed": "Yes",
+        "claimDate": "14-03-2022",
+        "homeInsurance": {
+            "insuranceName": "Fire Insurance",
+            "premium": 10000,
+            "sumInsured": 2000000,
+            "isCoveredBelongings": "Yes",
+            "maxbelongingsAmount": 70000,
+            "isCoveredHomeStructure": "No",
+            "homeStructureAmount": 0,
+            "hid": 5
+        }
+    },
+    {
+        "homePolicyId": 3,
+        "homePolicyNo": 475,
+        "clientName": "Mahesh",
+        "dateOfPurchase": "18-04-2017",
+        "dateOfExpire": "15-02-2021",
+        "isClaimed": "Yes",
+        "claimDate": "12-01-2021",
+        "homeInsurance": {
+            "insuranceName": "HomeOwner's Insurance",
+            "premium": 5000,
+            "sumInsured": 1000000,
+            "isCoveredBelongings": "Yes",
+            "maxbelongingsAmount": 50000,
+            "isCoveredHomeStructure": "Yes",
+            "homeStructureAmount": 200000,
+            "hid": 6
+        }
+    }
+]

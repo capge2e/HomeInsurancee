@@ -1,0 +1,24 @@
+create table admin (
+       h_id int4 not null,
+        home_structure_amount int4 not null,
+        insurance_name varchar(255),
+        is_covered_belongings boolean not null,
+        is_covered_home_structure boolean not null,
+        maxbelongings_amount int4 not null,
+        premium int4 not null,
+        sum_insured int4 not null,
+        homepolicies int4,
+        primary key (h_id)
+    )
+Hibernate: 
+    
+    create table client (
+       home_policy_id int4 not null,
+        claim_date varchar(255),
+        client_name varchar(255),
+        date_of_expire varchar(255),
+        date_of_purchase varchar(255),
+        home_policy_no int4 not null,
+        is_claimed boolean not null,
+        primary key (home_policy_id)
+    )
